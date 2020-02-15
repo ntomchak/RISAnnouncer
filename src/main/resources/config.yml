@@ -150,7 +150,7 @@ promotionMessages:
   listTemplate1: ''
   listTemplate2: ', '
   listTemplate3: ', and '
-  listTemplate4: ' at shop.rising-mc.pro/'
+  listTemplate4: ' at website'
 informationMessages:
 - 'msg 1'
 - 'msg 2'
