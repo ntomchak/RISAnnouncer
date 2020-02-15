@@ -21,6 +21,7 @@ public class IncreasePlaytimeGroupTask extends BukkitRunnable {
   @Override
   public void run() {
     data.setPlaytimeGroup(next);
+    scheduler.scheduleNextIncrease(data, uuid);
   }
 
 }
