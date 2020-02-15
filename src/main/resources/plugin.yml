@@ -1,0 +1,5 @@
+name: RISAnnouncer
+main: ws.toomanyco.risannouncer.RISAnnouncer
+version: 1.0
+commands:
+  announcer:

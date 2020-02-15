@@ -1,0 +1,156 @@
+# how long after login a player will receive the first message (in seconds)
+timeAfterLogin: 15
+# if the user has no paid perks
+byPlaytime:
+  # < the number in minutes
+  10:
+    # messages specific to players in this group
+    groupSpecificMessages:
+    - 'msg 1'
+    # in half minutes (1 = 30 seconds)
+    interval: 6
+    # ratios of announcement types (positive numbers, can sum to anything < 2.1 billion)
+    promotionRatio: 0
+    groupSpecificRatio: 0
+    informationRatio: 100
+  60:
+    groupSpecificMessages:
+    - 'msg 1'
+    interval: 8
+    promotionRatio: 45
+    groupSpecificRatio: 0
+    informationRatio: 55
+  120:
+    groupSpecificMessages:
+    - 'msg 1'
+    interval: 5
+    promotionRatio: 0
+    groupSpecificRatio: 10
+    informationRatio: 90
+  720:
+    groupSpecificMessages:
+    - 'msg 1'
+    interval: 5
+    promotionRatio: 0
+    groupSpecificRatio: 10
+    informationRatio: 90
+  1440:
+    groupSpecificMessages:
+    - 'msg 1'
+    interval: 5
+    promotionRatio: 0
+    groupSpecificRatio: 10
+    informationRatio: 90
+  aboveHighestTime:
+    groupSpecificMessages:
+    - 'msg 1'
+    interval: 5
+    promotionRatio: 0
+    groupSpecificRatio: 10
+    informationRatio: 90
+# players will receive messages promoting the perks they don't have
+promotionMessages:
+  # propotion of messages which will list multiple items
+  listProportion: 0.85
+  groups:
+    fly:
+      # relative frequency of this perk being promoted
+      frequency: 100
+      # short description which will appear in comma separated lists
+      list:
+      - '/fly'
+      - '/fly'
+      messages:
+      - 'msg 1'
+    unlimitedhomes:
+      frequency: 100
+      list:
+      - '/fly'
+      - '/fly'
+      messages:
+      - 'msg 1'
+    repair:
+      frequency: 100
+      list:
+      - '/fly'
+      - '/fly'
+      messages:
+      - 'msg 1'
+    wbec:
+      frequency: 25
+      list:
+      - '/fly'
+      - '/fly'
+      messages:
+      - 'msg 1'
+    ptime:
+      frequency: 10
+      list:
+      - '/fly'
+      - '/fly'
+      messages:
+      - 'msg 1'
+    feed:
+      frequency: 50
+      list:
+      - '/fly'
+      - '/fly'
+      messages:
+      - 'msg 1'
+    backondeath:
+      frequency: 25
+      list:
+      - '/fly'
+      - '/fly'
+      messages:
+      - 'msg 1'
+    mcmmo10boost:
+      frequency: 2
+      list:
+      - '/fly'
+      - '/fly'
+      messages:
+      - 'msg 1'
+    nick:
+      frequency: 50
+      list:
+      - '/fly'
+      - '/fly'
+      messages:
+      - 'msg 1'
+    top:
+      frequency: 25
+      list:
+      - '/fly'
+      - '/fly'
+      messages:
+      - 'msg 1'
+    hat:
+      frequency: 1
+      list:
+      - '/fly'
+      - '/fly'
+      messages:
+      - 'msg 1'
+    sellhand:
+      frequency: 100
+      list:
+      - '/fly'
+      - '/fly'
+      messages:
+      - 'msg 1'
+    slime:
+      frequency: 10
+      list:
+      - '/fly'
+      - '/fly'
+      messages:
+      - 'msg 1'
+  # (listTemplate1)(item 1)(listTemplate2)(item 2)(listTemplate3)(item 3)(listTemplate4)
+  listTemplate1: ''
+  listTemplate2: ', '
+  listTemplate3: ', and '
+  listTemplate4: ' at shop.rising-mc.pro/'
+informationMessages:
+- 'msg 1'
+- 'msg 2'
