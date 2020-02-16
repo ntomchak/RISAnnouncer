@@ -111,11 +111,7 @@ public class RISAnnouncer extends JavaPlugin implements Listener {
 
   @EventHandler
   public void onLogin(PlayerJoinEvent e) {
-    long time;
-    time = System.nanoTime();
     loadPlayer(e.getPlayer(), getConfig().getInt("timeAfterLogin"));
-    time = System.nanoTime() - time;
-    System.out.println((float) time / 1000000);
   }
 
   public int timeToRankUp(Player p) {
