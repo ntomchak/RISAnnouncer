@@ -4,4 +4,4 @@ This plugin is intended for Minecraft servers that are monetized by selling in-g
 Future features:
 * Track click-through rate of different advertisement messages
 * A/B Testing
-* Target messages based on in-game situation (if they're tools are breaking, advertise /repair, as an example)
+* Target messages based on in-game situation (if their tools are breaking, advertise /repair, as an example)
