@@ -1,5 +1,5 @@
 name: RISAnnouncer
-main: ws.toomanyco.risannouncer.RISAnnouncer
+main: io.github.ntomchak.RISAnnouncer
 version: 1.0
 commands:
   announcer:

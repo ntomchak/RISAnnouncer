@@ -1,4 +1,4 @@
-package ws.toomanyco.risannouncer;
+package io.github.ntomchak;
 
 import java.util.ArrayList;
 import java.util.Comparator;
