@@ -13,9 +13,9 @@ Future features:
 ```
 timeAfterLogin: 15
 ```
-Players will receive a message this many seconds after connecting to the server. Then, when the next message will be sent to them is determined by the interval defined in byPlaytime.
+Players will receive a message this many seconds after connecting to the server. Then, how long until the next message will be sent to them is determined by the interval defined in byPlaytime.
 ### Play time groups
-Players will be placed in the highest play time group that they have less play time than. For example, if the play time groups are 10, 60, 120, and 1440, a player with 70 minutes of play time will be in the 120 group. This group determines the ratio of information, advertisement, and group-specific messages they will receive, as well as the interval they receive messages at. The group-specific messages allow you to give messages based on play time, for example, players who have played less than 1 minute might receive a welcome message.
+Players will be placed in the highest play time group that they have less play time than. For example, if the play time groups are 10, 60, 120, and 1440, a player with 70 minutes of play time will be in the 120 group. This group determines the ratio of information, advertisement, and group-specific messages they will receive, as well as the interval they receive messages at. The group-specific messages allow to give messages based on play time, for example, players who have played less than 1 minute might receive a welcome message.
 ```
 byPlaytime:
   # note, these play time numbers are just examples, you can put any number of numbers here
