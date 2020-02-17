@@ -53,11 +53,10 @@ promotionMessages:
       - '/fly'
       messages:
       - 'msg 1'
-  # (listTemplate1)(item 1)(listTemplate2)(item 2)(listTemplate3)(item 3)(listTemplate4)
+  # (listTemplate1)(item 1)(listTemplate2)(item 2)(listTemplate3)
   listTemplate1: ''
   listTemplate2: ', '
-  listTemplate3: ', and '
-  listTemplate4: ' at website'
+  listTemplate3: ', and more at shop.example.com'
 informationMessages:
 - 'info 1'
 - 'info 2'
