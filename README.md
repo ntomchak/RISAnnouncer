@@ -53,9 +53,9 @@ These messages will be sent to players to promote perks they do not have yet.
 ```
 listProportion: 0.75
 ```
-listProportion must be a number from 0.0 - 1.0, it determines the ratio of messages advertise multiple perks in a list, or just one at a time.
+listProportion must be a number from 0.0 - 1.0, it determines the ratio of messages that advertise multiple perks in a list, or just one at a time.
 
-The plugin uses a player's permissions groups to determine which perks they have. In this example, players in the 'fly' will only receive the messages for the unlimitedhomes and nick groups. If they only don't have one group, they will receive messages only from the group they don't have. If they aren't missing any groups, they'll receive an information messages rather than a promotion one.
+The plugin uses a player's permissions groups to determine which perks they have. In this example, players in the 'fly' group will only receive the messages for the unlimitedhomes and nick groups. If they only don't have one group, they will receive messages only from the group they don't have. If they aren't missing any groups, they'll receive an information message rather than a promotion one.
 ```
   groups:
   
