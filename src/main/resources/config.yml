@@ -4,11 +4,9 @@ timeAfterLogin: 15
 byPlaytime:
   # < the number in minutes
   10:
-    # messages specific to players in this group
     groupSpecificMessages:
     - 'msg 1'
-    # in half minutes (1 = 30 seconds)
-    interval: 6
+    interval: 200
     # ratios of announcement types (positive numbers, can sum to anything < 2.1 billion)
     promotionRatio: 0
     groupSpecificRatio: 0
@@ -16,14 +14,14 @@ byPlaytime:
   1440:
     groupSpecificMessages:
     - 'msg 1'
-    interval: 5
+    interval: 300
     promotionRatio: 0
     groupSpecificRatio: 10
     informationRatio: 90
   aboveHighestTime:
     groupSpecificMessages:
     - 'msg 1'
-    interval: 5
+    interval: 300
     promotionRatio: 0
     groupSpecificRatio: 10
     informationRatio: 90
